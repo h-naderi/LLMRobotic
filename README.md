@@ -1,2 +1,11 @@
-# LLMRobotic
-This repository contains files and data for the paper "Foundation Models for Autonomous Robots in Unstructured Environments"
+# Foundation Models for Autonomous Robots in Unstructured Environments
+
+Automating activities in unstructured environments, such as construction sites, has been challenging due to unpredictable events, limiting robot adoption compared to structured settings. Recently, pretrained foundation models, particularly Large Language Models (LLMs), have shown promise in addressing this challenge through superior generalization capabilities. This study employed a multi-dimensional method that systematically review the field from different perspectives: foundation models in robotics and unstructured environments, and finally synthesized them with deliberative acting theory. Findings revealed that LLMs' linguistic capabilities are primarily used to improve perception and human-robot interactions in robotic tasks, while applications in project management, safety, and natural hazard detection are the most utilized applications of foundation models in unstructured environments. We positioned the current state-of-the-art on a five-level automation scale at conditional automation. These findings informed future scenarios, challenges, and solutions toward autonomous safe unstructured environments. Our study serves as a benchmark to track our progress toward that future.
+![Current State of Foundation models in Robotic](https://github.com/h-naderi/LLMRobotic/blob/main/img/XZ.png)
+
+
+# Files
+
+The data folder contains all identified records and extracted data for this study. We extracted a set of 20 features to have a detailed and complete overview of the recent trends. These features can be categorized to two 10 feature groups: (1) general features: authors, title, published year, source title, DOI, link to paper, author affiliations, abstract, author and index keywords; (2) specific features: applications, foundation model use, applied tasks, domain, study objective, robot morphology, evaluation method, modalities, transformer architecture, and open-source status. XZ xlsx file demonstrates 76 identified records within the field of foundation models for robotics and all associated features while YZ xlsx file contains the same data for the field of foundation modes for unstructured environments. 
+
+
